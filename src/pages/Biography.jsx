@@ -81,7 +81,7 @@ const Biography = () => {
           </div>
         )}
         
-        {bio.content && (
+        {bio.content && bio.content.length > 0 && (
           <div className="bio-section bio-text">
             <PortableText value={bio.content} components={portableTextComponents} />
           </div>

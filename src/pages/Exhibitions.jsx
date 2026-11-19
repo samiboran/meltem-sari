@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { client } from '../lib/sanity'
+import { client, urlFor } from '../lib/sanity'
 import './Exhibitions.css'
 
 const Exhibitions = () => {
@@ -16,7 +16,8 @@ const Exhibitions = () => {
           type,
           venue,
           location,
-          description
+          description,
+          images
         }`
         
         const data = await client.fetch(query)
@@ -62,6 +63,23 @@ const Exhibitions = () => {
               </p>
               {exhibition.description && (
                 <p className="exhibition-description">{exhibition.description}</p>
+              )}
+              {exhibition.images?.length > 0 && (
+                <div className="exhibition-images">
+                  {exhibition.images.map((image, i) => (
+                    <figure key={image._key || i} className="exhibition-image-wrapper">
+                      <img
+                        src={urlFor(image).width(1400).quality(90).url()}
+                        alt={image.alt || exhibition.title || exhibition.venue || ''}
+                        className="exhibition-image"
+                        loading="lazy"
+                      />
+                      {image.caption && (
+                        <figcaption className="exhibition-image-caption">{image.caption}</figcaption>
+                      )}
+                    </figure>
+                  ))}
+                </div>
               )}
             </div>
           </div>
