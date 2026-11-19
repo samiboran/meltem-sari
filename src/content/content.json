@@ -1,7 +1,603 @@
 {
-  "works": [],
-  "exhibitions": [],
-  "press": [],
-  "biography": null,
-  "series": {}
+  "works": [
+    {
+      "_id": "9dd85bfe-35c2-412d-aee1-5eedc0807f1c",
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e0eb50a9d9eb2d1cf752e17f06d76bb3ec7b5888-9449x6496-jpg",
+          "_type": "reference"
+        }
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "some Georgian"
+      },
+      "title": "Tbilisi",
+      "year": 2025
+    },
+    {
+      "_id": "c3e29f50-f5bc-405c-a54b-a4cec3e623e8",
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-63fa4a0b4ddade87acebe3f522dd82ff22d3cbaf-7464x5152-jpg",
+          "_type": "reference"
+        }
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "some Bosnian"
+      },
+      "title": "Sarajevo",
+      "year": 2025
+    },
+    {
+      "_id": "3391c4e0-bf11-4de7-bfcd-ffcac2dac7ff",
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-9c347fa15f739b36982c59ffbf6b4c2bbb97892c-2928x1634-png",
+          "_type": "reference"
+        }
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "some Japanese"
+      },
+      "title": "Japon",
+      "year": 2024
+    },
+    {
+      "_id": "db105d08-7b6d-44bb-93fa-bdb2b133afb5",
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-42d43286e7c1d2450e08a23a835025062dacfef1-8268x5315-jpg",
+          "_type": "reference"
+        }
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "view"
+      },
+      "title": "Landscape",
+      "year": 2024
+    },
+    {
+      "_id": "8acaab69-26a3-4adf-9240-3a47c1e81322",
+      "coverImage": {
+        "_type": "image",
+        "asset": {
+          "_ref": "image-e7f4d27e78c9a5932dfed80c2ec11fc6a47dc3ba-2700x3600-jpg",
+          "_type": "reference"
+        }
+      },
+      "slug": {
+        "_type": "slug",
+        "current": "argentina"
+      },
+      "title": "Argentina",
+      "year": 2019
+    }
+  ],
+  "exhibitions": [
+    {
+      "_id": "5fa77d46-832e-4458-aaa8-b634af7eafbf",
+      "description": null,
+      "images": null,
+      "location": "Argentina",
+      "title": "Las Sombras y Las Caras",
+      "type": "solo",
+      "venue": "Rodolfo Doval Fermi History and Art Museum",
+      "year": 2019
+    },
+    {
+      "_id": "619c454a-72a2-4c9f-a89b-a8bcefd48d46",
+      "description": null,
+      "images": null,
+      "location": "Istanbul, Turkey",
+      "title": "Manifesto of Light",
+      "type": "solo",
+      "venue": "Adahan Art Gallery",
+      "year": 2019
+    },
+    {
+      "_id": "43157dca-3585-47f4-8f9e-d50bee45e2e0",
+      "description": null,
+      "images": null,
+      "location": "Istanbul, Turkey",
+      "title": "Please Don't Touch The Artwork",
+      "type": "group",
+      "venue": "Bomonti Ada Short Film Screenings ",
+      "year": 2018
+    }
+  ],
+  "press": [
+    {
+      "_id": "07d11218-e903-4abf-81c1-c7feffcc5dd8",
+      "date": null,
+      "publication": "El Litoral",
+      "title": "Una mirada de Estambul para una ciudad santafesina",
+      "url": "https://www.ellitoral.com/escenarios-sociedad/mirada-estambul-ciudad-santafesina_0_vLgMJbLJlg.html"
+    },
+    {
+      "_id": "cf6b12af-e9ce-479d-b979-da8b925da92e",
+      "date": "2019-07-27",
+      "publication": "Ente Cultural Santafesino",
+      "title": "Sastre: Se expone la muestra “Las Sombras y Las Caras\"",
+      "url": "https://enteculturalsantafesino.com.ar/usina1/2019/07/sastre-se-expone-la-muestra-las-sombras-y-las-caras/"
+    },
+    {
+      "_id": "22f975bf-2a2b-4813-8a10-706b9c323f57",
+      "date": "2019-02-13",
+      "publication": "Women TV Yaşasın Sanat",
+      "title": "ASLI ÖYMEN'LE YAŞASIN SANAT Konuk: Fotoğraf Sanatçısı Meltem Sari",
+      "url": "https://www.youtube.com/watch?v=seifU21J6qE"
+    },
+    {
+      "_id": "2b77bded-d70b-42d5-990e-7662a9b20cbc",
+      "date": "2019-02-03",
+      "publication": "Açık Radyo ",
+      "title": "Fotoğraf ve video sanatçısı Melten Sarı ile 17 Şubat'a kadar Adahan'da görülebilecek Işığın Manifestosu sergisini Açık Dergi'de konuştuk.",
+      "url": "https://apacikradyo.com.tr/podcast/acik-dergi/acik-dergi-isigin-manifestosu"
+    }
+  ],
+  "biography": {
+    "birthPlace": null,
+    "birthYear": null,
+    "content": [
+      {
+        "_key": "456a3b5af4c5",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "80d7e9906e38",
+            "_type": "span",
+            "marks": [],
+            "text": "    Meltem Sari (b. 1992, Istanbul) is a photographer and video artist based in Istanbul. She graduated from "
+          },
+          {
+            "_key": "05c51c2e5803",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "Yıldız Technical University, Faculty of Art and Design, Department of Photography and Video"
+          },
+          {
+            "_key": "5d7093f69edf",
+            "_type": "span",
+            "marks": [],
+            "text": " in 2018."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "0f0ab6d84aac",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "807f3c6b0dc0",
+            "_type": "span",
+            "marks": [],
+            "text": "        Her practice explores the liminal spaces between personal and collective memory, examining processes of remembering and the relationship between identity and place through a critical and conceptual lens. Working primarily with photography and video, she traces the visual and emotional residues that places leave on individuals."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      },
+      {
+        "_key": "e4047178609b",
+        "_type": "block",
+        "children": [
+          {
+            "_key": "8a90026f5222",
+            "_type": "span",
+            "marks": [],
+            "text": "        Sari has held solo exhibitions at "
+          },
+          {
+            "_key": "b01bc2248708",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "Adahan Art Gallery"
+          },
+          {
+            "_key": "1481699295f8",
+            "_type": "span",
+            "marks": [],
+            "text": " in Istanbul (2019) and "
+          },
+          {
+            "_key": "e00c20c1f038",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "the Rodolfo Doval Fermi History and Art Museum"
+          },
+          {
+            "_key": "332761da95c4",
+            "_type": "span",
+            "marks": [],
+            "text": " in "
+          },
+          {
+            "_key": "7eabbbae74bd",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "Argentina"
+          },
+          {
+            "_key": "badacd34bd0a",
+            "_type": "span",
+            "marks": [],
+            "text": " (2019), and has participated in group screenings at Bomonti Ada, Istanbul (2018). Her work has been featured in Turkish and international media, including "
+          },
+          {
+            "_key": "78a203385405",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "Açık Radyo"
+          },
+          {
+            "_key": "deafd6bb917e",
+            "_type": "span",
+            "marks": [],
+            "text": ", "
+          },
+          {
+            "_key": "2d799a54bf89",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "Women TV"
+          },
+          {
+            "_key": "eda1e6268d39",
+            "_type": "span",
+            "marks": [],
+            "text": ", and the Argentine press outlets "
+          },
+          {
+            "_key": "e96b7527e783",
+            "_type": "span",
+            "marks": [
+              "em"
+            ],
+            "text": "El Litoral and Ente Cultural Santafesino"
+          },
+          {
+            "_key": "428beeeec56f",
+            "_type": "span",
+            "marks": [],
+            "text": "."
+          }
+        ],
+        "markDefs": [],
+        "style": "normal"
+      }
+    ],
+    "currentLocation": null,
+    "education": null
+  },
+  "series": {
+    "some Georgian": {
+      "description": "some Georgian",
+      "images": [
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-e0eb50a9d9eb2d1cf752e17f06d76bb3ec7b5888-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-2a9888d3e397efe070192f6d313c93996a5e444c-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-7ec0e0dad2199e09b9ad6cf49ea03f28b31766aa-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-d8b666e6c69c299e2f03ac292ad157a44cdd7f2a-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-f2f0eca1e44a03f6bfc772fb2a3bbd0be9aac074-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-82ad5bf4609e5e62d0c4f7da456fa192c643f6e7-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-166650ff73dc8a516b29c6d3d2fe4786a505c7e9-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-39248ea5374939091f4279e9b97072764ae2c027-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-a60db09f0051c968fa3d3040957b8331136551d9-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-7416b471aa68390669164a432dc4a9ad6be3f79e-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        }
+      ],
+      "title": "Tbilisi",
+      "year": 2025
+    },
+    "some Bosnian": {
+      "description": null,
+      "images": [
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-63fa4a0b4ddade87acebe3f522dd82ff22d3cbaf-7464x5152-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-64051b5a3c50c64568dd2ce40d5f23a6557f0b08-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-63c81e721d37e25242f7ef4ddf5c8d26b82bc601-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-a8d37afe2f3553e204f1cbe923add9519b6b3d18-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-a5e1bdd93c35d08233cb2a83bc761bc629bf87c8-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-2aec47ad7b1433ae8f6f343a1206c23179696440-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-27a38b99ade2510dfe3928fa2d188bc35a5b317a-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-b055fc38d49290bc155d59ad6c55cb14485e0f32-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-dcaedc962fbd6f7e877f6c53291a469a89596703-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-9e9b34742b6edf32428a6c831715e00765202d14-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-6be60ff8334e4db5138ea6362ba4e1d481275ad7-9449x6496-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        }
+      ],
+      "title": "Sarajevo",
+      "year": 2025
+    },
+    "some Japanese": {
+      "description": null,
+      "images": [
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-b7ddc22310967106e652dc0897fd4fd6a67af8e2-2926x1640-png",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-6c8d4c40404121205a9f0ad38e340d83773af89a-2930x1616-png",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-9b18b0bef8e0cc4f0dd4e4fee907ef9c89f93cbf-2924x1626-png",
+            "_type": "reference"
+          },
+          "caption": null
+        }
+      ],
+      "title": "Japon",
+      "year": 2024
+    },
+    "view": {
+      "description": null,
+      "images": [
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-c7c2cd920c9e8d69be92e281ec892cbc38aa4a05-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-42d43286e7c1d2450e08a23a835025062dacfef1-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-829e1a49bdff96ff7dff5a05b25d32a74231bccc-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-5d4744e0d71b3793a461e218f9e11077939d7f82-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-2e7b1ab6dc3745aedab65c6bb424c5c86f249e2f-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-3be204237e8dd38931b817513aef03f01bca9d3e-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-0315073638b6800ac79a1714e9e8315eefa78f2b-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-edf60c2ebdf1fe3f6e9b720de41c38f512a0f8ca-8268x5315-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        }
+      ],
+      "title": "Landscape",
+      "year": 2024
+    },
+    "argentina": {
+      "description": null,
+      "images": [
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-f144a0b30134a036a99362f9d144a09d5882b2fb-5400x7200-jpg",
+            "_type": "reference"
+          },
+          "caption": "Habitat"
+        },
+        {
+          "alt": null,
+          "asset": {
+            "_ref": "image-3a0edd79b50287b425dfeafa674c42f02535edf1-3024x4032-jpg",
+            "_type": "reference"
+          },
+          "caption": null
+        }
+      ],
+      "title": "Argentina",
+      "year": 2019
+    }
+  }
 }
